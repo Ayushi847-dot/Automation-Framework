@@ -20,12 +20,18 @@
             <version>4.1.0</version>
         </dependency>
 
-        
+         <!-- Appium dependency --> 
         <dependency>
             <groupId>appium</groupId>
             <artifactId>java-client</artifactId>
             <version>8.5.1</version>
         </dependency>
+        <!-- WebDriverManager to manage drivers -->   
+        <dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.6.3</version>
+		</dependency>
 <!-- testng -->
          <dependency>
             <groupId>testng</groupId>
